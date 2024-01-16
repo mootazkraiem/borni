@@ -58,11 +58,23 @@
     <Compile Include="availablerooms.Designer.cs">
       <DependentUpon>availablerooms.cs</DependentUpon>
     </Compile>
-    <Compile Include="roommanagement.cs">
+    <Compile Include="custumrinfo.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="roommanagement.Designer.cs">
-      <DependentUpon>roommanagement.cs</DependentUpon>
+    <Compile Include="custumrinfo.Designer.cs">
+      <DependentUpon>custumrinfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="reservationmanagement.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="reservationmanagement.Designer.cs">
+      <DependentUpon>reservationmanagement.cs</DependentUpon>
+    </Compile>
+    <Compile Include="reservearoom.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="reservearoom.Designer.cs">
+      <DependentUpon>reservearoom.cs</DependentUpon>
     </Compile>
     <Compile Include="roomreservation.cs">
       <SubType>Form</SubType>
@@ -84,11 +96,20 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="roomstatus.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="roomstatus.Designer.cs">
+      <DependentUpon>roomstatus.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="acceuil.resx">
       <DependentUpon>acceuil.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="availablerooms.resx">
       <DependentUpon>availablerooms.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="custumrinfo.resx">
+      <DependentUpon>custumrinfo.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="reception.resx">
       <DependentUpon>reception.cs</DependentUpon>
@@ -105,11 +126,17 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="roommanagement.resx">
-      <DependentUpon>roommanagement.cs</DependentUpon>
+    <EmbeddedResource Include="reservationmanagement.resx">
+      <DependentUpon>reservationmanagement.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="reservearoom.resx">
+      <DependentUpon>reservearoom.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="roomreservation.resx">
       <DependentUpon>roomreservation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="roomstatus.resx">
+      <DependentUpon>roomstatus.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

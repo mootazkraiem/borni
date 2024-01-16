@@ -39,7 +39,14 @@ namespace host_manager
 
         private void button3_Click(object sender, EventArgs e)
         {
+            // Create an instance of the RegisterForm
+            roomstatus roomstatusForm = new roomstatus();
 
+            // Show the RegisterForm
+            roomstatusForm.Show();
+
+            // Optionally, hide the ReceptionForm if needed
+            this.Hide();
         }
 
         private void label5_Click(object sender, EventArgs e)
@@ -69,17 +76,38 @@ namespace host_manager
 
         private void button2_Click(object sender, EventArgs e)
         {
+            // Create an instance of the RegisterForm
+            reservationmanagement reservationmanagementForm = new reservationmanagement();
 
+            // Show the RegisterForm
+            reservationmanagementForm.Show();
+
+            // Optionally, hide the ReceptionForm if needed
+            this.Hide();
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
+            // Create an instance of the RegisterForm
+            custumrinfo custumrinfoForm = new custumrinfo();
 
+            // Show the RegisterForm
+            custumrinfoForm.Show();
+
+            // Optionally, hide the ReceptionForm if needed
+            this.Hide();
         }
 
         private void registerbtn_Click(object sender, EventArgs e)
         {
+            // Create an instance of the RegisterForm
+            roomreservation roomreservationForm = new roomreservation();
 
+            // Show the RegisterForm
+            roomreservationForm.Show();
+
+            // Optionally, hide the ReceptionForm if needed
+            this.Hide();
         }
 
         private void label4_Click(object sender, EventArgs e)

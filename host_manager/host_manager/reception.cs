@@ -31,13 +31,23 @@ namespace host_manager
         
         {
             // Create an instance of the RegisterForm
-            acceuil formacceuil = new acceuil();
+            acceuil acceuilForm = new acceuil();
 
             // Show the RegisterForm
-            formacceuil.Show();
+            acceuilForm.Show();
 
             // Optionally, hide the ReceptionForm if needed
             this.Hide();
-        } 
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }
